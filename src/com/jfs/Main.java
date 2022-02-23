@@ -1,5 +1,6 @@
 package com.jfs;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.time.Month;
 
@@ -7,7 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student studentOne = new Student("Dallas", "dallas@gmail.com", LocalDate.of(2000, Month.AUGUST, 25), 3.5);
+        Student studentOne = new Student("dallas@gmail.com","Dallas",LocalDate.of(2000,Month.AUGUST,25),3.5f);
+
 
         System.out.println(studentOne.getName());
         System.out.println(studentOne.getEmail());
