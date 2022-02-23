@@ -1,6 +1,7 @@
 package com.jfs;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 public class Student {
     private String name;
@@ -19,7 +20,7 @@ public class Student {
 
 
     public String getName() {
-        return email;
+        return name;
     }
     public void setName(String name) {
         this.name = name;
@@ -34,7 +35,7 @@ public class Student {
 
 
     public LocalDate getDob() {
-        return gpa;
+        return dob;
     }
     public void setDob(LocalDate dob) {
         this.dob = dob;
